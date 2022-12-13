@@ -14,9 +14,13 @@ nav{
     z-index: 5;
 }
 .nav_main{
-    padding: 47px 40px 47px 47px;
+    padding: 40px;
     display: flex;
     justify-content: space-between;
+}
+.logo{
+    width: 179px;
+    height: auto;
 }
 .mobile_menu{
     display: none;
@@ -516,7 +520,7 @@ footer{
         font-size: 13px;
     }
     .hero{
-        padding-top: 72px;
+        padding-top: 90px;
     }
     .hero3_title{
         max-width: 285px;
@@ -697,8 +701,8 @@ footer{
 }
 @media(max-width: 600px){
     .nav_main .logo{
-        width: 72px;
-        height: 19.5px;
+        width: 120px;
+        height: 32.5px;
     }
     .login a{
         padding: 0;
@@ -711,7 +715,7 @@ footer{
         line-height: 14px;
     }
     .hero{
-        padding-top: 58px;
+        padding-top: 70px;
     }
     .hero_items{
         flex-direction: column;
